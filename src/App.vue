@@ -125,7 +125,12 @@ const trackTitle = () =>
     </header>
 
     <section class="visualizer">
-      <canvas ref="canvas" class="visualizer__canvas" aria-hidden="true"></canvas>
+      <canvas
+        ref="canvas"
+        class="visualizer__canvas"
+        role="img"
+        aria-label="Visualizador de espectro de áudio"
+      ></canvas>
     </section>
 
     <section class="now-playing">
